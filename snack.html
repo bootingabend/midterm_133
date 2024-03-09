@@ -31,6 +31,48 @@
 
 
     <style>
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; 
+}
+
+.header {
+    background-color: #343a40; 
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #ffc107;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker color on hover */
+    border-color: #0056b3;
+}
+
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -183,8 +225,8 @@
           
           <h4>More pages</h4>
           <ul class="list-unstyled">
-            <li><a href="study.html" class="text-white">Places to study</a></li>
-            <li><a href="socialize.html" class="text-white">Places to socialize</a></li>
+            <li><a href="index.html" class="text-white">Places to Study</a></li>
+            <li><a href="socialize.html" class="text-white">Places to Socialize</a></li>
             <li><a href="authors.html" class="text-white">Meet the Authors</a></li>
           </ul>
         </div>
@@ -211,7 +253,7 @@
 
     <!-- <h1 style="padding: 20px;">Intrigue at ISU</h1> -->
 
-    <h3 style="padding: 20px;">Places to snack</h3>
+    <h3 style="padding: 20px;">Places to Snack!</h3>
 
 
   <div class="album py-5 bg-body-tertiary">
@@ -236,14 +278,14 @@
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Die?</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Where is this?</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
                       <div class="modal-body">
                         <p>This snack spot is at Roberts Hall.</p>
-                        <img src="images/RobertsHall.png" alt="This is in Roberts Hall." width="100%" height="100%">
+                        <img src="images/RobertsHall.png" alt="This is at the Roberts Hall courtyard!" width="100%" height="100%">
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -299,7 +341,7 @@
             <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
             <img src ="images/AgEngBench.png" alt="This is a bench under a tree." width="100%" height="225">
             <div class="card-body">
-              <p class="card-text">ThChangetextw outside!</p>
+              <p class="card-text">A nice bench to sit at in between classes and eat your snack or even lunch! </p>
               <div class="d-flex justify-content-between align-items-center">
 
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
@@ -317,7 +359,7 @@
                         </button>
                       </div>
                       <div class="modal-body">
-                        <p>This snack spot is in Sukup.</p>
+                        <p>This snack spot is in Sukup Hall.</p>
                         <img src="images/Sukup.png" alt="This is near the MU." width="100%" height="100%">
                       </div>
                       <div class="modal-footer">
@@ -336,7 +378,7 @@
             <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
             <img src ="images/ChairsUDCC.png" alt="This is a bench under a tree." width="100%" height="225">
             <div class="card-body">
-              <p class="card-text">Tha;aslkdfh;askdfhkasjflkasdfhkdsfksjfe!</p>
+              <p class="card-text">These chairs are perfect for eating your snacks early in the morning or waiting to enter UDCC for your primary meal of the day!</p>
               <div class="d-flex justify-content-between align-items-center">
 
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
@@ -354,8 +396,8 @@
                         </button>
                       </div>
                       <div class="modal-body">
-                        <p>This snack spot is outside Black Engineering.</p>
-                        <img src="images/UDCC.png" alt="This is near the MU." width="100%" height="100%">
+                        <p>This snack spot is located in Union Drive Community Center also known as UDCC.</p>
+                        <img src="images/UDCC.png" alt="This is in UDCC." width="100%" height="100%">
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -373,7 +415,9 @@
             <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
             <img src ="images/ChairsCozy.png" alt="This is a bench under a tree." width="100%" height="225">
             <div class="card-body">
-              <p class="card-text">This is an example of a good place to study on nice days, where good weather and fresh air would help make studying more pleasing. However, students would have to be careful not to get distracted by the view outside!</p>
+              <p class="card-text">This snack spot is perfect for right after your class as it is right outside of a lecture hall! 
+                These comfy chairs are surrounding a nice glass table that is perfect to have your snacks and food on! 
+                The table even has phone chargers as well, a big plus!</p>
               <div class="d-flex justify-content-between align-items-center">
 
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4">
